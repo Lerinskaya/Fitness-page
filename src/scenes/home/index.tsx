@@ -63,8 +63,8 @@ const Home = ({setSelectedPage}: Props) => {
             </ActionButton>
             <AnchorLink 
             className='text-sm font-bold text-primary-500 underline hover:rext-secondary-500'
-            onClick={()=> setSelectedPage(SelectedPage.ContuctUs)}
-            href={`#${SelectedPage.ContuctUs}`}
+            onClick={()=> setSelectedPage(SelectedPage.ContactUs)}
+            href={`#${SelectedPage.ContactUs}`}
             >
               <p>Learn More</p>
             </AnchorLink>

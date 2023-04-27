@@ -27,7 +27,7 @@ const Form = ({setSelectedPage}: Props) => {
   return (
     <section id='contuctus' className='mx-auto w-5/6 pt-24 pb-32'>
       <motion.div 
-        onViewportEnter={()=> setSelectedPage(SelectedPage.ContuctUs)}>
+        onViewportEnter={()=> setSelectedPage(SelectedPage.ContactUs)}>
         <motion.div
         className='md:w-3/5'
         initial='hidden'
