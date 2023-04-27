@@ -1,5 +1,5 @@
 import Htext from '@/shared/Htext';
-import { IBenefit, SelectedPage } from '@/shared/types';
+import { IBenefit, SelectedPage } from '@/shared/interfaces';
 import Benefit from './Benefit';
 import {
   HomeModernIcon,

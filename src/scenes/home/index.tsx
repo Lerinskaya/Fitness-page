@@ -1,5 +1,5 @@
 import React from 'react';
-import { SelectedPage } from '@/shared/types';
+import { SelectedPage } from '@/shared/interfaces';
 import useMediaQuery from '@/hooks/useMediaQuery';
 import ActionButton from '@/shared/ActionButton';
 import HomePageText from '@/assets/HomePageText.png';
