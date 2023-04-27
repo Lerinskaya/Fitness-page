@@ -38,7 +38,7 @@ const Home = ({setSelectedPage}: Props) => {
             visible: {opacity: 1, x:0}
           }}>
             <div className='relative'>
-              <div className='before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext '>
+              <div className='before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext'>
                 <img src={HomePageText} alt="homeText" />
               </div>
             </div>
@@ -63,8 +63,8 @@ const Home = ({setSelectedPage}: Props) => {
             </ActionButton>
             <AnchorLink 
             className='text-sm font-bold text-primary-500 underline hover:rext-secondary-500'
-            onClick={()=> setSelectedPage(SelectedPage.ContactUs)}
-            href={`#${SelectedPage.ContactUs}`}
+            onClick={()=> setSelectedPage(SelectedPage.ContuctUs)}
+            href={`#${SelectedPage.ContuctUs}`}
             >
               <p>Learn More</p>
             </AnchorLink>

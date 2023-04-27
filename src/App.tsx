@@ -4,6 +4,8 @@ import Navbar  from '@/scenes/navbar';
 import Home  from '@/scenes/home';
 import Benefits  from '@/scenes/benefits';
 import OurClasses from './scenes/our-classes';
+import Form from './scenes/form';
+import Footer from './scenes/footer';
 
 function App() {
   const [selectedPage , setSelectedPage] = useState<SelectedPage>(SelectedPage.Home);
@@ -32,6 +34,8 @@ function App() {
       <Home setSelectedPage={setSelectedPage}/>
       <Benefits setSelectedPage={setSelectedPage}/>
       <OurClasses setSelectedPage={setSelectedPage}/>
+      <Form setSelectedPage={setSelectedPage}/>
+      <Footer/>
     </div>
   )
 }
